@@ -4,7 +4,7 @@
  * Descripción: Muestra el título principal "todos".
  */
 const Titulo = () => {
-    return <h1 className="titulo">todos APP by Ignacio</h1>;
+    return <h1 className="titulo">ToDo APP by Ignacio</h1>;
 };
 
 export default Titulo;

@@ -9,7 +9,7 @@ import TareaItem from "./TareaItem";
 const ListaTareas = ({ lista, eliminarTarea }) => {
     if (lista.length === 0) {
         return (
-            <div className="p-4 text-muted fs-4">
+            <div className="p-2 text-muted fs-4">
                 No tasks, add a task
             </div>
         );
