@@ -16,7 +16,7 @@ const EntradaTarea = ({ nuevaTarea, setNuevaTarea, agregarTarea }) => {
         <input
             type="text"
             className="input-tarea"
-            placeholder="What needs to be done?"
+            placeholder="¿Que necesitas hacer?"
             value={nuevaTarea}
             onChange={(e) => setNuevaTarea(e.target.value)}
             onKeyDown={handleKeyDown}

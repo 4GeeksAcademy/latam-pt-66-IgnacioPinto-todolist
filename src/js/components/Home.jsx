@@ -46,6 +46,24 @@ const Home = () => {
                     {/* Componente Título */}
                     <Titulo />
 
+                    <div>
+                    {tareas.length > 0 && (
+                        <div className="text-center"> 
+                            <h2 className="py-4">Tienes {tareas.length} {tareas.length == 1 ? "tarea" : "tareas"} pendientes</h2>
+
+                            <button 
+                            
+                            type="button" 
+                            className="btn btn-danger btn-lg" 
+                            onClick={() => {
+                                setTareas([])
+                                alert('Todas las tareas fueron eliminadas')
+                            }}>Eliminar Todo</button>
+
+                        </div>
+                        )}    
+                    </div>
+
                     <div className="todo-wrapper shadow-lg">
                         
                         {/* Componente Input */}
