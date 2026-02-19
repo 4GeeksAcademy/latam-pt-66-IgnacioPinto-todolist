@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 // Asegúrate de importar Bootstrap en tu index.js o App.js principal
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import Contador from "./Contador";
-import EntradaTarea from "./EntradaTarea";
-import ListaTareas from "./ListaTareas"; 
-import Titulo from "./Titulo";
+
+// App.js
+import { Contador, EntradaTarea, ListaTareas, Titulo } from "./index.js";
 
 /**
  * Componente Principal: Home
