@@ -5,6 +5,8 @@ import React, { useState } from "react";
 // App.js
 import { Contador, EntradaTarea, ListaTareas, Titulo } from "./index.js";
 
+// PROBLEMAS DE CONSOLA SOLUCIONADOS
+
 /**
  * Componente Principal: Home
  * Autor: Ignacio Pinto
